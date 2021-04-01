@@ -1,9 +1,96 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import './vars.scss';
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+  background-color: $maincolor;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $secondarycolor;
+  color: $maincolor;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a#navToWork.nav-link, a#navToBio.nav-link, a#navToContact.nav-link {
+  color: $maincolor;
+}
+
+#bio-page p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25em;
+  color: $mainfontcolor;
+  margin-top: 40px;
+}
+
+#bio-page {
+  background-color: $maincolor;
+}
+
+#bio-text {
+ margin-left: 1em;
+}
+
+#bio-card {
+  width: 100%;
+}
+
+.card-img-left {
+  height: 60rem;
+  width: 20rem;
+  margin-left: 0;
+}
+
+.card {
+  background-color: $maincolor;
+  border: none;
+  margin: 10px;
+}
+
+.card-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: $secondaryfontcolor;
+}
+
+.description {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: $mainfontcolor;
+}
+
+.technology {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: $secondarylightcolor;
+}
+
+#footer {
+background-color: $secondarylightcolor;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 1.5em;
+}
+
+a#email.nav-link, a#github.nav-link, a#linkedin.nav-link {
+color: $maincolor;
+text-align: center;
 }
