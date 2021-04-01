@@ -6,6 +6,8 @@ My goal is to both celebrate my journey into software development and to introdu
 
 ## COLOR PALETTE
 
+<img width="862" alt="portfolio-palette" src="https://user-images.githubusercontent.com/67122062/113318964-99726600-92d6-11eb-944e-f41bbf7f2d2d.png">
+
 ## SCREENSHOT
 
 ## LOOM VIDEO WALKTHROUGH
