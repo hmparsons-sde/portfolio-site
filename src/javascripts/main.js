@@ -1,8 +1,13 @@
 import '../styles/main.scss';
+import bioPage from './components/bioPage';
+import printApp from './components/printApp';
+import printProjects from './components/printProjects';
+import getProjects from './helpers/data/projectData';
 
 const init = () => {
-  document.querySelector('#app').innerHTML = '<h1>HELLO! You are up and running!</h1>';
-  console.warn('YOU ARE UP AND RUNNING!');
+  printApp();
+  bioPage();
+  getProjects().then((projects) => printProjects(projects));
 };
 
 init();
