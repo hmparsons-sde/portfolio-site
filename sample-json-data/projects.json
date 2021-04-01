@@ -1,0 +1,30 @@
+{
+  "-MUuao2lynNljpuXajqR": {
+    "title": "Pinterest-ish",
+    "screenshot": "https://github.com/hmparsons-sde/portfolio-site/blob/main/src/images/pinterestish.png",
+    "description": "This is a single page application that mirrors the popular social media app, Pinterest.",
+    "technologiesUsed":
+      "Vanilla JS, DOM Manipulation, Bootstrap, CSS, HTML5, Webpack, Firebase, Google Auth, Postman",
+    "available": "true",
+    "url": "https://pinterest-ish.netlify.app",
+    "githubUrl": "https://github.com/hmparsons-sde/pinterest-ish"
+  },
+  "-MUucHzh6tmJm42qr3bV": {
+    "title": "Freelancer",
+    "screenshot": "https://github.com/hmparsons-sde/portfolio-site/blob/main/src/images/freelancer-screenshot.png",
+    "description": "The purpose of this project is to demonstrate successful collaboration on a full-cycle CRUD app that utilizes a Firebase Realtime Database. This app is a dashboard for Renaissance Faire event planners to create, update, and delete events, food vendors, souvenir vendors, and festival staff. If the user does not provide authentication, they are only able to see the faire information, but do not have the ability to manipulate data.",
+    "technologiesUsed": "HTML, CSS, Vanilla JS, Bootstrap, Firebase, Google Auth, Postman",
+    "available": "true",
+    "url": "https://renfaire.netlify.app/",
+    "githubUrl": "https://github.com/nss-evening-cohort-14/renaissance-fair-dashboard-renaissance-fair"
+  },
+  "-MUufyyXlovbYsLhDnu9": {
+    "title": "Tama-Tamagotchi",
+    "screenshot": "https://github.com/hmparsons-sde/portfolio-site/blob/main/src/images/tamatamagotchi.png",
+    "description": "The user can interact with a Tamagotchi-style game interface. The user's virtual pet can eat, play, sleep, and fight. Each game card has two buttons which impact the target activity score. The pet's score cannot exceed 100. If any pet score hits 0, the card flashes Game Over.",
+    "technologiesUsed": "HTML, CSS, Vanilla JS modules, Webpack, Bootstrap",
+    "available": "true",
+    "url": "https://tama-holly.netlify.app",
+    "githubUrl": "https://github.com/hmparsons-sde/tama-tamagotchi"
+  }
+}
