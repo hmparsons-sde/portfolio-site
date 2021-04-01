@@ -1,6 +1,6 @@
 ## OVERVIEW
 
-This is my personal portfolio site that showcases my progress as a software developer. In this iteration, I am highlighting my work during Nashville Software School's part-time web dev bootcamp. From the top navbar, site visitors may navigate to my bio, the technologies that I use, and the projects that best demonstrate those competencies. The bottom navbar contains links to my email address, LinkedIn profile, and GitHub profile. As a single-page application, each navigation event dynamically re-renders the DOM. 
+This is my personal portfolio site that showcases my progress as a software developer. In this iteration, I am highlighting my work during Nashville Software School's part-time web dev bootcamp. From the top navbar, site visitors may navigate to my bio, the projects that best demonstrate my technical competencies, and to my contact information. Th projects page is connected to a Firebase Realtime Database. The contact page contains links to my email address, LinkedIn profile, and GitHub profile. As a single-page application, each navigation event dynamically re-renders the DOM. 
 
 My goal is to both celebrate my journey into software development and to introduce visitors to my story, motivations, and aesthetic.
 
