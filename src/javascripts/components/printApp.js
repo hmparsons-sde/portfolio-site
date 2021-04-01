@@ -14,7 +14,7 @@ const printApp = () => {
   <div class="card mb-3" id="bio-page">
   <div class="row g-0">
     <div class="col-md-4">
-      <img id="bio-image" src="" alt="bio image">
+      <img id="bio-image" src="src/images/Headshot2.jpg" alt="bio image" class="img-fluid rounded-3 mx-auto d-block">
     </div>
     <div class="col-md-8">
       <div class="card-body">
