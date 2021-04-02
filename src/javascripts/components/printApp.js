@@ -6,7 +6,9 @@ const printApp = () => {
       <ul id="navLinks" class="nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"><a href="#bio-page" id="navToBio" class="nav-link">Me</a></li>
         <li class="nav-item"><a href="#work-page" id="navToWork" class="nav-link">My work</a></li>
-        <li class="nav-item"><a href="#contact-page" id="navToContact" class="nav-link">Get in touch</a></li>
+        <li class="nav-item"><a href="mailto:holly-parsons@outlook.com" id="email" class="nav-link" target="_blank">Email me</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/hmparsons/" id="linkedin" class="nav-link" target="_blank">LinkedIn</a></li>
+        <li class="nav-item"><a href="https://github.com/hmparsons-sde" id="github" class="nav-link" target="_blank">Github</a></li>
       </ul>
     </div>  
   </nav>
