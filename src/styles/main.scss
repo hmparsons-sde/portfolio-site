@@ -27,8 +27,21 @@ body {
   font-size: 20px;
 }
 
-a#navToWork.nav-link, a#navToBio.nav-link, a#navToContact.nav-link {
+a#navToWork.nav-link, a#navToBio.nav-link, a#navToTech.nav-link {
   color: $maincolor;
+}
+
+a#navToWork.nav-link:hover, a#navToBio.nav-link:hover, a#navToTech.nav-link:hover {
+  background-color: $secondarylightcolor;
+}
+
+a#email.nav-link, a#github.nav-link, a#linkedin.nav-link {
+  color: $maincolor;
+  text-align: center;
+}
+
+a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
+  background-color: $secondarylightcolor;
 }
 
 #bio-page p {
@@ -77,20 +90,14 @@ a#navToWork.nav-link, a#navToBio.nav-link, a#navToContact.nav-link {
   color: $mainfontcolor;
 }
 
-.technology {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  color: $secondarylightcolor;
+#tech-page {
+  background-color: $maincolor;
+  margin-top: 40px;
 }
 
-#footer {
-background-color: $secondarylightcolor;
-font-family: 'Raleway', sans-serif;
-font-weight: 300;
-font-size: 1.5em;
-}
-
-a#email.nav-link, a#github.nav-link, a#linkedin.nav-link {
-color: $maincolor;
-text-align: center;
+#tech-logos {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 70%;
 }
