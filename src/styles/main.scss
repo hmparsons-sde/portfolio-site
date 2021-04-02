@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import './vars.scss';
 
 html {
@@ -22,7 +22,7 @@ body {
   color: $maincolor;
   overflow-x: hidden;
   padding-top: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 20px;
 }
@@ -32,7 +32,7 @@ a#navToWork.nav-link, a#navToBio.nav-link, a#navToContact.nav-link {
 }
 
 #bio-page p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.25em;
@@ -65,27 +65,27 @@ a#navToWork.nav-link, a#navToBio.nav-link, a#navToContact.nav-link {
 }
 
 .card-title {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   color: $secondaryfontcolor;
 }
 
 .description {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: $mainfontcolor;
 }
 
 .technology {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: $secondarylightcolor;
 }
 
 #footer {
 background-color: $secondarylightcolor;
-font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 300;
 font-size: 1.5em;
 }
