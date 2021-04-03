@@ -34,7 +34,7 @@ const printApp = () => {
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
-      <h1 class="bioheader"><img src="src/images/bioheader.png"></h1>
+      <div class="bioheader"><img src="src/images/bioheader.png"></div>
       </div>
     </div>
   </div>
@@ -44,6 +44,7 @@ const printApp = () => {
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
+      <h1 class="mb-5">Featured Projects</h1>
       <div class="d-flex flex-row flex-wrap justify-content-center" id="work-display"></div>
       </div>
     </div>
