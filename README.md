@@ -12,8 +12,6 @@ My goal is to both celebrate my journey into software development and to introdu
 
 Canva: https://bit.ly/3cKQwoQ
 
-## SCREENSHOT
-
 ## LOOM VIDEO WALKTHROUGH
 
 ## NETLIFY DEPLOY
