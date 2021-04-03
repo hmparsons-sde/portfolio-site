@@ -48,7 +48,7 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   background-color: $secondarylightcolor;
 }
 
-.masthead, .tech-page {
+.masthead {
   height: 100vh;
   min-height: 500px;
   background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
@@ -78,6 +78,12 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   margin-top: 5%;
 }
 
+.bioheader {
+  margin-top: 5%;
+  margin-bottom: 80%;
+  margin-right: 80%;
+}
+
 .work-page {
   margin-left: 10%;
   margin-bottom: 5%;
@@ -96,7 +102,7 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   margin: 10px;
 }
 
-.card-title {
+.card-title, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   color: #948e70;
@@ -109,12 +115,30 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   color: $mainfontcolor;
 }
 
+.btn {
+  align-items: left;
+}
+
 #tech-logos {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: 100%;
+}
+
+.tech-page {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://github.com/hmparsons-sde/portfolio-site/blob/main/src/images/Portfolio%20Mock-up%20(4).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25em;
+  color: $mainfontcolor;
 }
 
 /* For mobile phones: */
