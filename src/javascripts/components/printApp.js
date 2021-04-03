@@ -1,18 +1,23 @@
 const printApp = () => {
   document.querySelector('#main').innerHTML = `
-  <nav class="navbar" id="navbar">
-    <div class="container-fluid">
-      <ul id="navLinks" class="nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a href="#" id="navToLanding" class="nav-link">HMP</a></li>
-        <li class="nav-item"><a href="#about-me" id="navToBio" class="nav-link">About me</a></li>
-        <li class="nav-item"><a href="#work-page" id="navToWork" class="nav-link">My work</a></li>
-        <li class="nav-item"><a href="#tech-page" id="navToTech" class="nav-link">Tech stack</a></li>
-        <li class="nav-item"><a href="mailto:holly-parsons@outlook.com" id="email" class="nav-link" target="_blank">Email me</a></li>
-        <li class="nav-item"><a href="https://www.linkedin.com/in/hmparsons/" id="linkedin" class="nav-link" target="_blank">LinkedIn</a></li>
-        <li class="nav-item"><a href="https://github.com/hmparsons-sde" id="github" class="nav-link" target="_blank">Github</a></li>
-      </ul>
-    </div>  
-  </nav>
+  <nav class="navbar navbar-expand-lg menu">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </button>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse sidenav" id="navbarNavigation">
+          <ul id="navLinks" class="nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="#" id="navToLanding" class="nav-link">HMP</a></li>
+            <li class="nav-item"><a href="#about-me" id="navToBio" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#work-page" id="navToWork" class="nav-link">My work</a></li>
+            <li class="nav-item"><a href="#tech-page" id="navToTech" class="nav-link">Tech stack</a></li>
+            <li class="nav-item"><a href="mailto:holly-parsons@outlook.com" id="email" class="nav-link" target="_blank">Email me</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/hmparsons/" id="linkedin" class="nav-link" target="_blank">LinkedIn</a></li>
+            <li class="nav-item"><a href="https://github.com/hmparsons-sde" id="github" class="nav-link" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
 
 <header class="masthead">
   <div class="container h-100">
