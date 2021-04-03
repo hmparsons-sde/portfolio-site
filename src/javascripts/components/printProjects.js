@@ -8,11 +8,12 @@ const printProjects = (project) => {
       </div>
       <div class="col-lg-6">
         <div class="card-body">
-          <h5 class="card-title">${element.title}</h5>
-          <p class="card-text description"> ${element.overview}</p>
-            <p class="card-text technology"> ${element.tech}</p>
-            <a href="${element.url}" class="btn btn-secondary">Netlify</a>
-            <a href="${element.github}" class="btn btn-secondary">GitHub</a>
+          <h4 class="card-title text-left">${element.title}</h4>
+          <p class="card-text text-left description"> ${element.overview}</p>
+            <h5 class="text-left">Built with:</h5>
+            <p class="card-text text-left technology mt-2"> ${element.tech}</p>
+            <a href="${element.url}" class="btn btn-secondary mt-2">Netlify</a>
+            <a href="${element.github}" class="btn btn-secondary mt-2">GitHub</a>
         </div>
       </div>
     </div>
