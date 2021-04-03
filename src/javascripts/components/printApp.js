@@ -33,8 +33,21 @@ const printApp = () => {
 <div class="about-me" id="about-me">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
-      <div class="bioheader"><img src="src/images/bioheader.png"></div>
+      <div class="col-6 text-center">
+      <img class="img-fluid mx-auto d-block" src="src/images/Headshot2.jpg" id="power-pose">
+      </div>
+      <div class="col-6">
+        <div class="bioheader"><h1 class="mb-3">Hi, I'm Holly!</h1></div>
+        <div id="bio-text">I grew up just south of Nashville, TN and was reared by a family who has always encouraged me to follow my passions (as long as there was a clear plan!).
+        Even though most of them are engineers, they were thrilled when I chose to attend Vanderbilt University. There, I earned a Bachelor of Arts, with Highest Honors, in Art History & Philosophy.
+        My goal was to earn my PhD, a professorship, and an office on some leafy campus in a small town. But, after three semesters in a graduate program, I learned that academia was not the life I wanted. </br> </br>
+        After managing a juice bar, earning my RYT-200 yoga teacher certification, and working for a FinTech company, I landed at a recruiting & consulting firm as a research associate. 
+        Using AI technologies in my daily workflow sparked an intense curiosity in the ways that humans and computers interact. 
+        As a result, I followed in the footsteps of innumerable friends and enrolled in Nashville Software School's part-time evening bootcamp.</br> </br>
+        Almost immediately, I found my new passion - a career path that would allow me to be creative, keep writing, and serve a broad audience of users. As both a person with chronic illness and a 
+        sibling of a person with autism, I am especially drawn to projects and people who advocate for accessibility in tech.</br></br>
+        Outside of software development, I am a voracious reader, an avid baker, a devoted mother to two special needs dogs, and a rubber duck for my developer husband.
+        </div>
       </div>
     </div>
   </div>
@@ -43,7 +56,7 @@ const printApp = () => {
 <div class="work-page" id="work-page">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
+      <div class="col-12">
       <h1 class="mb-5">Featured Projects</h1>
       <div class="d-flex flex-row flex-wrap justify-content-center" id="work-display"></div>
       </div>
