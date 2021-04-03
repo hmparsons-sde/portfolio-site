@@ -72,16 +72,20 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.25em;
+  font-size: 1em;
   color: $mainfontcolor;
   margin-bottom: 5%;
   margin-top: 5%;
+  text-align: justify;
 }
 
-.bioheader {
-  margin-top: 5%;
-  margin-bottom: 80%;
-  margin-right: 80%;
+#bio-text, .bioheader {
+  margin-left: 10%;
+}
+
+#power-pose {
+  height: auto;
+  width: auto;
 }
 
 .work-page {
@@ -106,6 +110,7 @@ h1 {
   background-color: $maincolor;
   border: none;
   margin: 10px;
+  text-align: justify;
 }
 
 .card-title, h5 {
@@ -114,11 +119,12 @@ h1 {
   color: #948e70;
 }
 
-.description {
+.description, .technology {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: $mainfontcolor;
+  text-align: justify;
 }
 
 .btn {
