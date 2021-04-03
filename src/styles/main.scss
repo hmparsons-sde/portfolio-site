@@ -11,7 +11,7 @@ body {
   background-color: $maincolor;
 }
 
-.sidenav {
+.navbar {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -27,11 +27,11 @@ body {
   font-size: 20px;
 }
 
-a#navToWork.nav-link, a#navToBio.nav-link, a#navToTech.nav-link {
+a#navToWork.nav-link, a#navToBio.nav-link, a#navToTech.nav-link, a#navToLanding.nav-link {
   color: $maincolor;
 }
 
-a#navToWork.nav-link:hover, a#navToBio.nav-link:hover, a#navToTech.nav-link:hover {
+a#navToWork.nav-link:hover, a#navToBio.nav-link:hover, a#navToTech.nav-link:hover, a#navToLanding.nav-link:hover {
   background-color: $secondarylightcolor;
 }
 
@@ -44,25 +44,40 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   background-color: $secondarylightcolor;
 }
 
-#bio-page p {
+.masthead, .tech-page {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.25em;
   color: $mainfontcolor;
-  margin-top: 40px;
 }
 
-#bio-page {
-  background-color: $maincolor;
+.about-me {
+  height: 100vh;
+  min-height: 500px;
+  background-color: $secondaryfontcolor;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25em;
+  color: $mainfontcolor;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-#bio-text {
- margin-left: 1em;
-}
-
-#bio-card {
-  width: 100%;
+.work-page {
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .card-img-left {
@@ -80,7 +95,7 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
 .card-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  color: $secondaryfontcolor;
+  color: #948e70;
 }
 
 .description {
@@ -90,14 +105,10 @@ a#email.nav-link:hover, a#github.nav-link:hover, a#linkedin.nav-link:hover {
   color: $mainfontcolor;
 }
 
-#tech-page {
-  background-color: $maincolor;
-  margin-top: 40px;
-}
-
 #tech-logos {
     display: block;
-    margin-left: 10%;
+    margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
+    height: 100%;
 }
