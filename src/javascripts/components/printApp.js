@@ -34,7 +34,7 @@ const printApp = () => {
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-6 text-center">
-      <img class="img-fluid mx-auto d-block" src="src/images/Headshot2.jpg" id="power-pose">
+      <img class="img-fluid mx-auto d-block" src="https://github.com/hmparsons-sde/portfolio-site/blob/f0fa553312271e4bdb0d576f28e5201c7b7f7022/src/images/Headshot2.jpg" id="power-pose">
       </div>
       <div class="col-6">
         <div class="bioheader"><h1 class="mb-3">Hi, I'm Holly!</h1></div>
@@ -57,7 +57,7 @@ const printApp = () => {
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12">
-      <h1 class="mb-5">Featured Projects</h1>
+      <h1 class="mb-5 text-center">Featured Projects</h1>
       <div class="d-flex flex-row flex-wrap justify-content-center" id="work-display"></div>
       </div>
     </div>
